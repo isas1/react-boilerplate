@@ -10,7 +10,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <h1>Hola World!!</h1>
+        <h1>Hola World!</h1>
         <h2 className={this.state.count > 10 ? 'warning' : 'lower'}>
           Count: {this.state.count}
         </h2>
